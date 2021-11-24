@@ -1,0 +1,83 @@
+body{
+    height: auto;
+    margin-bottom: 250px;
+    background: linear-gradient(
+      rgb(0, 0, 0),
+      #29801aef,
+      #174e15ef,
+      black);
+    background-position: center bottom;  
+}
+
+
+.titulo {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+  
+.introcucao {
+    text-align: center;
+    margin: 40px;
+    font-size: larger;
+    font-size: 25px;
+    color: white;
+}
+  
+#divmae {
+    display: flex;
+    justify-content: center;
+    
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+  
+.personagens {
+    display: flex;
+    width: 250px;
+    background-color: #197915ef;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    color: rgb(2, 2, 0);
+}
+  
+.caracteristica {
+    text-align: center;
+    margin: 20px;
+}
+
+a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+.third {
+    border-color: #0c8816;
+    color: rgb(109, 4, 4);
+    box-shadow: 0 0 40px 40px #0c6e0c inset, 0 0 0 0 #0b5c08;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    padding: 15px 32px;
+    text-decoration: 15px;
+    border-radius: 15px;
+}
+  .third:hover {
+    box-shadow: 0 0 10px 0 #0a6d07 inset, 0 0 10px 4px #0b5e0b;
+  }
+
+
+
+

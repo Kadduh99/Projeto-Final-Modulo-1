@@ -1,0 +1,88 @@
+body {
+    height: auto;
+    margin: 50px 50px 145px;
+    background: linear-gradient(rgba(131, 4, 4, 0.986),rgba(85, 1, 1, 0.829), rgb(0, 0, 0));
+}
+
+#divmae {
+    display: flex;
+    width: 30p;
+    background-color: #ffffffef;
+    border-radius: 10px;
+
+    text-align: center;
+    padding: 65px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Ceviche One', cursive;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+i {
+    color: red;
+}
+
+.rumo {
+    text-align: center;
+    color: black;
+    font-family: 'Ceviche One', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#divescolha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.escolha1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.904);
+    display: flex;
+    width: 400px;
+    background-color: #fdfdfdef;
+    border-radius: 7px;
+    margin: 35px;
+    padding: 35px;
+    border: 35px;
+    
+}
+
+.escolha2 {
+    text-align: center;
+    color: black;
+    display: flex;
+    width: 400px;
+    background-color: #fdfdfdef;
+    border-radius: 7px;
+    margin: 35px;
+    padding: 35px;
+    border: 35px;
+}
+#botao { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    border-color: rgb(5, 88, 5);
+    color: black;
+    box-shadow: 0 0 40px 40px rgba(5, 88, 5, 0.459) inset, 0 0 0 0 white;
+    transition: all 150ms ease-in-out;
+    padding: 30px 50px;
+    text-decoration: 15px;
+}
+
+button:hover{
+     box-shadow: 0 0 10px 0 white inset, 0 0 10px 4px whitesmoke;    
+}

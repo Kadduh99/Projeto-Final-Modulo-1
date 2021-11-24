@@ -1,0 +1,39 @@
+body {
+    height: auto;
+    margin: 50px 50px 270px;
+    background: linear-gradient(rgba(131, 4, 4, 0.986),rgba(85, 1, 1, 0.829), rgb(0, 0, 0));
+}
+
+#divmae {
+    display: flex;
+    width: 30p;
+    background-color: #ffffffef;
+    border-radius: 10px;
+
+    text-align: center;
+    padding: 65px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Ceviche One', cursive;
+    color: rgb(255, 0, 0);
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+i {
+    color: red;
+}
+
+
+
+.fim {
+    font-size: 40px;
+    color: red;
+    
+}
